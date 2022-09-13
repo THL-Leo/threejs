@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script type="module" crossorigin src="/threejs/assets/index.6ff90e17.js"></script>
+    <link rel="stylesheet" href="/threejs/assets/index.687bd606.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <canvas id="bg"> </canvas>
+    <main>
+
+      <header>
+        <h1>Leo Tsunghan Lee</h1>
+        <p>Software Engineer, 3rd year CS Student at UCSC</p>
+      </header>
+
+      <section class="left">
+        <h2>About Me</h2>
+        <p>
+          Hello! My name is Leo and I am currently a third year student at UCSC.
+        </p>
+
+        <p>
+          I am a CS major and I am interested in app development, full stack development, and game development.
+        </p>
+
+        <p>
+          During my free time I like to play video games and explore new areas that might interest me. Currently I love watching videos about interior design and new technology.
+        </p>
+
+        <p>Skills: Python, Java, C, C++, MIPS Assembly, TypeScript, JavaScript, Three.js, React.js, CSS</p>
+
+      </section>
+
+      
+      <section class="light">
+        <h2>Projects</h2>
+        <p>
+          <h4>HTTP Server</h4>
+          A multithreaed HTTP Server that can handle cURL requests including GET, PUT, and APPEND. 
+          It also allows full customization on how many threads to open and which port to use.
+          The program is written completely in C using the pthread library and can be found on my 
+          <a href="https://github.com/THL-Leo/httpserver">Github page</a>.
+        </p>
+        <p>
+          <h4>cURL replica</h4>
+          A Python program designed to replicate the basic cURL functions. Similar to the HTTP Server above, this parses the 
+          request and return the status code and the content of the page. However, this is simplified and a specific port is designed to not work.
+          The program also creates a csv file to log the entries of each cURL requests. You can also track these requests via WireShark and see each individual requests and responses.
+          <br>Link to the <a href="https://github.com/THL-Leo/cURL">repo</a>.
+        </p>
+        <p>
+          <h4>Traveling Salesman Problem</h4>
+          The Traveling Salesman problem is a well known problem that has not been solved yet. This program is an attempt to 
+          solve the problem. It can handle up to 26 vertices and will find the shortest path between 2 vertices using Depth First Search.
+          It also supports piping the output to a file. If not specified, then it will output to stdout.
+          <br>Link to the <a href="https://github.com/THL-Leo/TSP">repo</a>.
+        </p>
+
+      </section>
+
+
+      <section class="left">
+        <h2>Work History</h2>
+
+        <h3>Lab Grader</h3>
+        <h4>Jack Baskin School of Engineering, UCSC (December 2021 - June 2022)</h4>
+        <p>
+          Specializes in writing testing scripts for each lab. Languaged used includes Python, C, and Bash to speed up the grading process.
+          Output the results to a file named after the student's ID to keep files organized.
+        </p>
+        <h3>Tutor</h3>
+        <h4>Jack Baskin School of Engineering, UCSC (March 2021 - March 2022)</h4>
+        <p>
+          Helped tutor for the following classes: CSE 20, CSE 12, and CSE 13S. Taught various data structures in languages such as Python, MIPS Assembly and C.
+          Organized lecture materials and simplified them so students can understand better.
+        </p>
+        <h3>Java Tutor</h3>
+        <h4>RootTech, Irvine (July 2020 - August 2020)</h4>
+        <p>
+          As a reponse to Covid-19, I offered free AP Computer Science A courses to over 200 High School students over 2 months.
+          The goal of the courses is to preview/review these materials since remote learning is much less effective compared to in-person.
+        </p>
+      </section>
+
+    </main>
+    
+  </body>
+</html>
